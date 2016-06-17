@@ -1,0 +1,101 @@
+@import url(https://fonts.googleapis.com/css?family=Merriweather+Sans:300italic);
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+body {
+  background-color: #191919;
+  text-align: center;
+  color: white;
+}
+
+h1 {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  font-family: 'Roboto', sans-serif;
+}
+
+p {
+  font-family: 'Merriweather Sans', sans-serif;
+  width: 500px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+span {
+  font-size: 20px;
+}
+
+.container1 {
+  display: inline-block;
+  float: none;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+.container2 {
+  display: inline-block;
+  float: none;
+  padding-right: 65px;
+  padding-left: 68px;
+  padding-bottom: 25px;
+}
+
+#sessionName {
+  text-align: center;
+  cursor: pointer;
+  font-family: 'Merriweather Sans', sans-serif;
+  font-size: 35px;
+}
+
+#minusBreak {
+  cursor: pointer;
+}
+
+#plusBreak {
+  cursor: pointer;
+}
+
+#minusWork {
+  cursor: pointer;
+}
+
+#plusWork {
+  cursor: pointer;
+}
+
+footer {
+  font-family: 'Merriweather Sans', sans-serif;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.circle {
+  width: 500px;
+  height: 500px;
+  background: #191919;
+  border: 5px solid #8AE32B;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+#minutes {
+  font-size: 45px;
+}
+
+#seconds {
+  font-size: 45px;
+}
+
+.fill {
+  background: #191919;
+  width: 100%;
+  height: 0%;
+  display: block;
+  bottom: 0;
+  top: 0;
+  position: relative;
+}
